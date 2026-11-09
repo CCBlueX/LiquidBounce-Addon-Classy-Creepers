@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ccbluex.classycreepers.addon.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "CreeperRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
