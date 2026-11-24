@@ -33,7 +33,6 @@ tasks.processResources {
         "version" to project.version.toString(),
         "minecraft_version" to libs.versions.minecraft.get(),
         "loader_version" to libs.versions.fabric.loader.get(),
-        "liquidbounce_version" to libs.versions.liquidbounce.get(),
     )
     inputs.properties(properties)
     filesMatching("fabric.mod.json") {

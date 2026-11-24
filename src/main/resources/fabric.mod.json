@@ -21,7 +21,7 @@
     "minecraft": "~${minecraft_version}",
     "java": ">=25",
     "fabricloader": ">=${loader_version}",
-    "liquidbounce": ">=${liquidbounce_version} <0.43.0"
+    "liquidbounce": "*"
   },
   "breaks": {
     "classycreepers": "*"
